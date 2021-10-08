@@ -23,6 +23,9 @@
         .bloque-texto-d__autor 
           .h5.mb-0 (BARTOLOMÉ, 1987) (ACEITUNO, 2010)
 
+    p.text-center.mb-5 
+      strong El lenguaje audiovisual está compuesto por cuatro aspectos principalmente
+
     .row.mb-5
       .col-lg-6.mb-4.mb-lg-0(data-aos="flip-left")
         img.img-a(src='@/assets/curso/tema_2/img_2.png', alt='Texto que describa la imagen')
@@ -93,7 +96,7 @@
                   .list__item__bulletNumber5 
                     span 1
                 .list__txt.mt-2  
-                  h3 Perspectiva con un punto de fuga
+                  h3 Gran Plano General / Extreme Long Shot (ELS)
               .line01.mb-3
               p Tiene el mayor ángulo de corte posible. Tiene el objetivo de mostrar la mayor cantidad de información acerca del entorno y los personajes solo representan un punto más dentro de todo el paisaje.  
           .row.justify-content-center.align-items-center
@@ -297,7 +300,7 @@
                   .line01.mb-3
                   p.mb-0 También denominado plano holandés, donde la cámara está inclinada, de tal manera que la imagen parece torcida. Esto genera una sensación de inestabilidad e inseguridad.
       .row(numero="6" titulo="Movimientos de cámara")
-        p.mb-5 Es el que determina el punto de vista de la cámara, que provee un recurso expresivo al momento de mostrar el aspecto psicológico de un plano.
+        p.mb-5 Son aquellos que generan encuadres móviles, en los cuales se puede describir un escenario o una acción.
         SlyderA.mb-5
           .row.justify-content-center.align-items-center
             .col-md-11.col-lg-9
@@ -514,21 +517,25 @@
                   h4 Composición áurea o golden ratio
               .line01.mb-3
               p Distribución basada en la serie de Fibonacci (matemáticas). Es un patrón que está presente en la naturaleza.
-      .row(numero="8" titulo="Continuidad")
-        p.mb-5 Más conocido como raccord. Tiene que ver con la relación que existe entre los diferentes planos a fin de que no se pierda la sensación de unidad. Cada plano de una escena, similar a una cadena, tendrá que servir de base para el siguiente.
+          .row.justify-content-center.align-items-center
+            .col-md-11.col-lg-9
+              .list.mb-3
+                .list__item
+                  .list__item__bulletNumber5 
+                    span 7
+                .list__txt.mt-2  
+                  h4 Continuidad
+              .line01.mb-3
+              p.mb-5 Más conocido como raccord. Tiene que ver con la relación que existe entre los diferentes planos a fin de que no se pierda la sensación de unidad. Cada plano de una escena, similar a una cadena, tendrá que servir de base para el siguiente.
+              .cajon.color-primario.p-4
+                p.mb-5 Se debe tener en cuenta la continuidad en espacio, tiempo, iluminación y vestuario. Uno de los principales es el espacio, el cual nos dice que, si un personaje sale de plano por un lado del encuadre, en el siguiente plano deberá entrar por el lado contrario. (MARQUÈS, 1995).
 
-        .row.justify-content-center.align-items-center
-          .col-md-11.col-lg-9
-            .cajon.color-primario.p-4
-              p.mb-5 Se debe tener en cuenta la continuidad en espacio, tiempo, iluminación y vestuario. Uno de los principales es el espacio, el cual nos dice que, si un personaje sale de plano por un lado del encuadre, en el siguiente plano deberá entrar por el lado contrario. (MARQUÈS, 1995).
-
-              a.anexo.mb-5.mb-lg-0(href="https://www.youtube.com/embed/ew5WzvL-fEk" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-link.svg")
-                .anexo__texto
-                  p #[strong Ejemplo.] La ciencia del Cine (2020), Elementos del cine: CONTINUIDAD + ERRORES en películas.
-
-      .row(numero="9" titulo="Ritmo")
+                a.anexo.mb-5.mb-lg-0(href="https://www.youtube.com/embed/ew5WzvL-fEk" target="_blank")
+                  .anexo__icono
+                    img(src="@/assets/template/icono-link.svg")
+                  .anexo__texto
+                    p #[strong Ejemplo.] La ciencia del Cine (2020), Elementos del cine: CONTINUIDAD + ERRORES en películas.
+      .row(numero="8" titulo="Ritmo")
         p.mb-5 Está al servicio de la narrativa y depende directamente de la sensación que se quiere transmitir. Dentro de un audiovisual se puede tener tanto un ritmo dinámico, como un ritmo suave. Como su nombre lo indica, el ritmo dinámico se caracteriza por mayor cambio de planos de corta duración (MS, CU) lo cual crea una sensación de acción y movimiento. En contraste, el ritmo suave suele tener planos de mayor duración y potencia la lectura de las expresiones y pensamientos de los personajes. La clave estará entonces, en lograr un equilibrio entre estos dos tipos de ritmo (MARQUÈS, 1995).
 
         .row.justify-content-center.align-items-center
@@ -541,7 +548,7 @@
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
                   p #[strong Ejemplo.] Ritmo narrativo: ¿qué es y por qué es tan importante?
-      .row(numero="10" titulo="Elipsis y transiciones")
+      .row(numero="9" titulo="Elipsis y transiciones")
         p Este elemento se equipará a los signos de puntuación en la escritura. La elipsis es la omisión del tiempo muerto con el objetivo de mostrar solo aquellas acciones relevantes, significativas y atractivas, por cualquier forma de transición. Podemos pasar de hoy a mañana, al próximo siglo o a los próximos milenios (Fernández, F. Martínez, J. 1999). Es la herramienta narrativa que ayuda a pasar de una secuencia a otra para avanzar en la historia en tiempo y espacio (CÁMARA, 2006).
 
         p.mb-5 Una elipsis se realiza mediante el uso de transiciones, las cuales son variadas y cada una posee su propio valor expresivo.

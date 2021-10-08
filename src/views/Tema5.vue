@@ -6,7 +6,7 @@
     .titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 5
-      h1 Elevator pitch
+      h1 #[i Elevator pitch]
 
     .row.align-items-center.bg-color1.p-5(data-aos="slide-right")
       .col-lg-12.mb-4.mb-lg-0
@@ -101,7 +101,7 @@
           figure
             img.img-a(src='@/assets/curso/tema_4/img_12.png', alt='Texto que describa la imagen')
 
-    h4.text-center.mb-5 Consejos para la presentación
+    h4.text-center.mb-5 ¿Qué debe tener la presentación de #[i pitch]?
 
     .row.align-items-center.bg-color1.p-5(data-aos="slide-right")
       .col-lg-12.mb-4.mb-lg-0
@@ -181,7 +181,7 @@
                       .list__item__bulletNumber5 
                         span 4
                     .list__txt.mt-2  
-                      h4 Target
+                      h4 #[i Target]
                   .line01.mb-3
                   p Seguramente al definir el problema y plantear una solución lo ha hecho de acuerdo al público objetivo. En este apartado caracterice a ese segmento de la población al cual quiere dirigirse con su producto.
           .row.justify-content-center.align-items-center
@@ -260,10 +260,55 @@
                       h4 Características diferenciables
                   .line01.mb-3
                   p Presente de 3 a 5 características que hacen de su proyecto algo destacable, innovador o diferente.
+          .row.justify-content-center.align-items-center
+            .col-md-11.col-lg-9
+              .row.align-items-center
+                .col-lg-4.mb-4.mb-lg-0
+                  figure
+                    img.img-a(src='@/assets/curso/tema_4/img_13.png', alt='Texto que describa la imagen')
+                .col-lg-8.mb-4.mb-lg-0
+                  .list.mb-3
+                    .list__item
+                      .list__item__bulletNumber5 
+                        span 9
+                    .list__txt.mt-2  
+                      h4 Especificaciones de producción
+                  .line01.mb-3
+                  p Presentar de forma global las fases, tiempos y costos de la ejecución del proyecto.
+          .row.justify-content-center.align-items-center
+            .col-md-11.col-lg-9
+              .row.align-items-center
+                .col-lg-4.mb-4.mb-lg-0
+                  figure
+                    img.img-a(src='@/assets/curso/tema_4/img_13.png', alt='Texto que describa la imagen')
+                .col-lg-8.mb-4.mb-lg-0
+                  .list.mb-3
+                    .list__item
+                      .list__item__bulletNumber5 
+                        span 10
+                    .list__txt.mt-2  
+                      h4 Cierre
+                  .line01.mb-3
+                  ul.lista-ul--color.mb-3
+                    li 
+                      i.lista-ul__vineta
+                      | Haga un llamado a la acción. Esta puede ser a seguir las redes sociales del proyecto o invitarlos a realizar preguntas de lo que acaba de exponer.
+                    li 
+                      i.lista-ul__vineta
+                      | Vuelva a mostrar la diapositiva 1 (logo y datos de contacto).
+                  p.mb-3 Para ampliar más acerca de un #[i Elevator  Pitch] puede consultar desde el material complementario o desde la web algunos ejemplos que, aunque describen el discurso de un #[i pitch] con fines de financiación, aportan información valiosa y útil al momento de mostrar ideas de proyecto: 
+                  ul.lista-ul--color
+                    li 
+                      i.lista-ul__vineta
+                      | Negocios y Empresa (2018, Cómo hacer un #[i Elevator Pitch] que enamore al Inversor
+                    li 
+                      i.lista-ul__vineta
+                      | IurisdocTV, (2013), #[i Elevator pitch]. Tienes 20 segundos - eduCaixa
+
     .row.justify-content-center
       .col-lg-10
         .cajon.color-primario.p-4
-          p.mb-4(data-aos="flip-up") Para ampliar más acerca de un Elevator Pitch puede consultar desde el material complementario o desde la web algunos ejemplos que, aunque describen el discurso de un pitch con fines de financiación, aportan información valiosa y útil al momento de mostrar ideas de proyecto:
+          p.mb-4(data-aos="flip-up") Para ampliar más acerca de un #[i Elevator Pitch] puede consultar desde el material complementario o desde la web algunos ejemplos que, aunque describen el discurso de un #[i pitch] con fines de financiación, aportan información valiosa y útil al momento de mostrar ideas de proyecto:
 
           .row.justify-content-center
             .col-lg-8
@@ -271,13 +316,13 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p #[strong Ejemplo].  Negocios y Empresa (2018, Cómo hacer un Elevator Pitch que enamore al Inversor.
+                  p #[strong Ejemplo].  Negocios y Empresa (2018, Cómo hacer un #[i Elevator Pitch] que enamore al Inversor.
 
               a.anexo.mb-5.mb-lg-4(data-aos="flip-up")(href="https://www.youtube.com/embed/2b3xG_YjgvI" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p #[strong Ejemplo]. LurisdocTV, (2013), Elevator pitch. Tienes 20 segundos - eduCaixa
+                  p #[strong Ejemplo]. LurisdocTV, (2013), #[i Elevator  pitch]. Tienes 20 segundos - eduCaixa
 
 
 

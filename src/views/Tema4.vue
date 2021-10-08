@@ -12,13 +12,16 @@
       .col-lg-8.mb-4.mb-lg-0.bg-color3.p-5
         p El montaje o también conocido como edición, es el proceso mediante el cual se determina la duración y cortes de cada uno de los planos, de la misma manera se realiza la sincronización de sonidos para otorgar mayor sentido al audiovisual.
 
-        p En el siguiente video se expone el proceso básico para el montaje de los cuadros elaborados en el proceso de storyboard con la finalidad de elaborar una animatic.
+        p En el siguiente video se expone el proceso básico para el montaje de los cuadros elaborados en el proceso de #[i storyboard] con la finalidad de elaborar una animatic.
 
-        p.mb-0 Para esto se utilizará el programa Blender el cual es un software libre que se puede obtener gratuitamente en la página www.blender.org.
+        p.mb-0 Para esto se utilizará el programa Blender el cual es un #[i software]libre que se puede obtener gratuitamente en la página 
+           a(href="https://www.blender.org/" target="_blank").link-color www.blender.org.
 
       .col-lg-4.mb-4.mb-lg-0
         figure
           img.img-a(src='@/assets/curso/tema_3/img_10.png', alt='Texto que describa la imagen')
+
+    h4.mb-5 Instalación de Blender:
 
     figure.mb-5
       .video

@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Storyboard y animatic',
+    componenteFormativo: '<em>Storyboard</em> y <em>animatic</em>',
     descripcionCurso:
-      'El desarrollo audiovisual es un proceso estructurado que requiere planeación cuidadosa para lograr que la idea que se desea comunicar llegue adecuadamente al espectador, de ahí la importancia en conocer y apropiar conceptos esenciales de lenguaje audiovisual que potencien la narración de la historia y permitan desarrollar apropiadamente una propuesta gráfica mediante la creación de un storyboard, para así determinar si el planteamiento original se logra traducir adecuadamente a imágenes y por tanto, mantiene la esencia del mensaje.',
+      'El desarrollo audiovisual es un proceso estructurado que requiere planeación cuidadosa para lograr que la idea que se desea comunicar llegue adecuadamente al espectador, de ahí la importancia en conocer y apropiar conceptos esenciales de lenguaje audiovisual que potencien la narración de la historia y permitan desarrollar apropiadamente una propuesta gráfica mediante la creación de un <em>storyboard</em>, para así determinar si el planteamiento original se logra traducir adecuadamente a imágenes y por tanto, mantiene la esencia del mensaje.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -12,6 +12,12 @@ export default {
         nombreRuta: 'inicio',
         icono: 'fas fa-home',
         titulo: 'Volver al inicio',
+      },
+      {
+        nombreRuta: 'introduccion',
+        icono: 'fas fa-info',
+        titulo: 'Introducción',
+        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
@@ -57,7 +63,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Storyboard',
+        titulo: '<em>Storyboard</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -75,26 +81,8 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Clasificación de los hilos',
+            titulo: 'Animatic',
             hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
           },
         ],
       },
@@ -144,22 +132,22 @@ export default {
   referencias: [
     {
       referencia:
-        'Aceituno, Marcelo (2010). Seminario de producción multimedia. Secretaría de Posgrado. Universidad Nacional de Quilmes. Bernal.',
+        'Aceituno, Marcelo (2010). Seminario de producción multimedia. Secretaría de Posgrado. Universidad Nacional de Quilmes. Bernal. ',
       link: 'http://libros.uvq.edu.ar/spm/42_lenguaje_audiovisual.html',
     },
 
     {
       referencia:
-        'Bancroft, Tom (2012-2013). Character Mentor. Burlington, MA. EEUU: Focal Press.',
+        'Bancroft, Tom (2012-2013). Character Mentor. Burlington, MA. EEUU: Focal Press. ',
     },
     {
       referencia:
-        'Bartolomé, A. (1987). Análisis de la producción y aplicación de programas audiovisuales didácticos. Tesis doctoral. Barcelona: Universitat de Barcelona.',
+        'Bartolomé, A. (1987). Análisis de la producción y aplicación de programas audiovisuales didácticos. Tesis doctoral. Barcelona: Universitat de Barcelona. ',
       link: 'http://hdl.handle.net/10803/2360',
     },
 
     {
-      referencia: 'BPlans. Noah Parsons.',
+      referencia: 'BPlans. Noah Parsons. ',
       link:
         'https://articles.bplans.com/the-7-key-components-of-a-perfect-elevator-pitch/',
     },
@@ -170,20 +158,20 @@ export default {
     },
     {
       referencia:
-        'Dancyger, Ken, and Alvarez, José A. Traductor. Técnicas De Edición En Cine Y Video. Barcelona: Editorial Gedisa, 1999.',
+        'Dancyger, Ken, and Alvarez, José A. Traductor. Técnicas De Edición En Cine Y Video. Barcelona: Editorial Gedisa, 1999. ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000079357',
     },
 
     {
       referencia:
-        'Doucet, Ron, (2020). Drawing & Composition for visual storytelling.',
+        'Doucet, Ron, (2020). Drawing & Composition for visual storytelling. ',
       link: 'http://www.floobynooby.com/comp1.html#anchor',
     },
 
     {
       referencia:
-        'Doyle, Alison (2019). How to Create an Elevator Pitch With Examples. The balance careers.',
+        'Doyle, Alison (2019). How to Create an Elevator Pitch With Examples. The balance careers. ',
       link:
         'https://www.thebalancecareers.com/elevator-speech-examples-and-writing-tips-2061976',
     },
@@ -194,33 +182,32 @@ export default {
     },
     {
       referencia:
-        'Maldonado, M. (2018). Animatic – El Storyboard de Hoy. Blog Industria Animación.',
+        'Maldonado, M. (2018). Animatic – El <em>Storyboard</em> de Hoy. Blog Industria Animación. ',
       link:
         'https://www.industriaanimacion.com/2018/06/animatic-storyboard-de-hoy/',
     },
 
     {
       referencia:
-        'Manrique, Ana. Dibujo. 9a Edición. ed. Barcelona: Parramón Ediciones, 2008.',
+        'Manrique, Ana. Dibujo. 9a Edición. ed. Barcelona: Parramón Ediciones, 2008. ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000062633',
     },
 
     {
-      referencia:
-        'Marquès Graells, Pere (1995). Introducción al lenguaje audiovisual. Recuperado el 10 de septiembre de 2020 en:',
-      link: 'http://peremarques.pangea.org/avmulti.htm#av ',
+      referencia: 'Marqués, P. Introducción al lenguaje audiovisual. (1995). ',
+      link: 'http://www.peremarques.net/avmulti.htm',
     },
 
     {
       referencia:
-        'Novasur, Consejo Nacional de Televisión (CNTV). (2019). Manual de producción audiovisual.',
+        'Novasur, Consejo Nacional de Televisión (CNTV). (2019). Manual de producción audiovisual. ',
       link: 'https://fliphtml5.com/ojfbf/bapc/basic',
     },
 
     {
       referencia:
-        'Simon, Mark (2007). Storyboard Motion in Art. Burlington, MA, EEUU: Focal Press.',
+        'Simon, Mark (2007). <em>Storyboard</em> Motion in Art. Burlington, MA, EEUU: Focal Press.',
     },
   ],
   glosario: [
@@ -268,7 +255,7 @@ export default {
     },
     {
       texto:
-        'Brad Bird on how to compose shots for storyboards Y layout artists',
+        'Brad Bird on how to compose shots for <em>storyboards</em> Y layout artists',
       tipo: 'Web',
       link:
         'https://drive.google.com/drive/u/1/folders/12NE-22yrveZoKbQRJPj9xPJdj5EpL8xn',
@@ -283,34 +270,34 @@ export default {
     {
       texto:
         'TRNGL Entertainment (2020), Dolly Zoom (El efecto vértigo) | Curso de Cine',
-      tipo: 'Vídeo',
+      tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=hqcyg-g8_Ok&ab_channel=TRNGL',
     },
 
     {
       texto: 'La ciencia del Cine (2018), Planos y Movimientos de Cámara I',
-      tipo: 'Vídeo',
+      tipo: 'Video',
       linl: 'https://youtu.be/AN2I1CTn3rY',
     },
 
     {
       texto:
         'La ciencia del Cine (2019), Plano y Movimientos de Cámara II : Angulación.',
-      tipo: 'Vídeo',
+      tipo: 'Video',
       link: 'https://youtu.be/ILRjN0b30Pc',
     },
 
     {
       texto:
         'La ciencia del Cine (2020), Plano y Movimientos de Cámara III : Puntos de vista y movimientos.',
-      tipo: 'Vídeo',
+      tipo: 'Video',
       link: 'https://youtu.be/dBPjG2YipY4',
     },
 
     {
       texto:
         'La ciencia del Cine (2020), Elementos del cine: CONTINUIDAD + ERRORES en películas',
-      tipo: 'Vídeo',
+      tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=ew5WzvL-fEk&ab_channel=LacienciadelCine',
     },
@@ -318,7 +305,7 @@ export default {
     {
       texto:
         'The Damn Beast (2020), Ritmo narrativo: ¿qué es y por qué es tan importante? | el laberinto #005.',
-      tipo: 'Vídeo',
+      tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=YwJaz7tXq1Y',
     },
 
@@ -331,7 +318,7 @@ export default {
 
     {
       texto:
-        'Toby Kearton (2016),Taxi Driver (1976) | Scene and Storyboard Comparison',
+        'Toby Kearton (2016),Taxi Driver (1976) | Scene and <em>Storyboard</em> Comparison',
       tipo: 'Video',
       link: 'https://youtu.be/Ydl6wQnEQYg',
     },
@@ -345,13 +332,14 @@ export default {
 
     {
       texto: 'AllahOfw0ne (2006), "The untimely death of Pudge the fish".',
-      tipo: 'Vídeo',
+      tipo: 'Video',
       link: 'https://youtu.be/LxmT-zQc1GQ',
     },
 
     {
-      texto: 'Kevin Parry (2010), The Arctic Circle - Storyboard Comparison.',
-      tipo: 'Vídeo',
+      texto:
+        'Kevin Parry (2010), The Arctic Circle - <em>Storyboard</em> Comparison.',
+      tipo: 'Video',
       link: 'https://vimeo.com/12153179',
     },
 
@@ -364,14 +352,14 @@ export default {
     {
       texto:
         'Negocios y Empresa (2018, Cómo hacer un Elevator Pitch que enamore al Inversor.',
-      tipo: 'Vídeo',
+      tipo: 'Video',
       link: 'https://youtu.be/EsAkvzIoEvc',
     },
 
     {
       texto:
         'IurisdocTV, (2013), Elevator pitch. Tienes 20 segundos - eduCaixa',
-      tipo: 'Vídeo',
+      tipo: 'Video',
       link: 'https://youtu.be/2b3xG_YjgvI',
     },
   ],
@@ -438,10 +426,16 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Eulises Orduz'],
+        nombre: ['Eulises Orduz Amezquita'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andres Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Ricardo Alfonso González Vargas',
@@ -456,7 +450,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

@@ -20,14 +20,14 @@
             br
             p.mb-0 En su definición más básica, el dibujo es el arte de representar objetos mediante el uso de líneas sobre una superficie, y es una de las formas más sencillas de representación gráfica.
 
-    p.mb-5(data-aos="flip-up") Actualmente, las técnicas de dibujo se dividen en dos grandes ramas definidas principalmente por la naturaleza de las herramientas usadas y estas son las técnicas análogas y las digitales. Las técnicas análogas hacen referencia a todas aquellas que hacen uso de instrumentos o herramientas tradicionales como lo son el lápiz y el papel principalmente, aunque no se restringen solo a estos 2, mientras que las digitales hacen uso de computadores y una amplia gama de herramientas tanto de hardware como de software.
+    p.mb-5(data-aos="flip-up") Actualmente, las técnicas de dibujo se dividen en dos grandes ramas definidas principalmente por la naturaleza de las herramientas usadas y estas son las técnicas análogas y las digitales. Las técnicas análogas hacen referencia a todas aquellas que hacen uso de instrumentos o herramientas tradicionales como lo son el lápiz y el papel principalmente, aunque no se restringen solo a estos 2, mientras que las digitales hacen uso de computadores y una amplia gama de herramientas tanto de #[i hardware] como de #[i software].
 
     .row.align-items-center.bg-color1.p-5(data-aos="slide-right")
       .col-lg-12.mb-4.mb-lg-0
         figure.mb-5
           img.img-a(src='@/assets/curso/tema_1/img_2.png', alt='Texto que describa la imagen')
 
-        p.mb-0 A su vez dentro de estas 2 ramas existen un gran abanico de categorías, las cuales se definen principalmente por el tipo de materiales que se emplean para realizarlas; por ejemplo, técnicas secas o aguadas dentro de las análogas o técnicas vectoriales o mapas de bits para el caso de las digitales. Sin embargo, al ser la intención de este documento hacer una introducción básica se abordarán una serie de conceptos útiles para realizar una representación gráfica de ideas simple y efectiva orientada a la realización de storyboard.
+        p.mb-0 A su vez dentro de estas 2 ramas existen un gran abanico de categorías, las cuales se definen principalmente por el tipo de materiales que se emplean para realizarlas; por ejemplo, técnicas secas o aguadas dentro de las análogas o técnicas vectoriales o mapas de bits para el caso de las digitales. Sin embargo, al ser la intención de este documento hacer una introducción básica se abordarán una serie de conceptos útiles para realizar una representación gráfica de ideas simple y efectiva orientada a la realización de #[i storyboard].
 
     separador
     .titulo-segundo(data-aos="flip-up")
@@ -43,7 +43,7 @@
     .row.justify-content-center.mb-5(data-aos="slide-right")
       .col-lg-12
         LineaTiempoD.color-secundario
-          .row(numero="A" titulo="Lápices y portamina")
+          .row.color_lin(numero="A" titulo="Lápices y portamina")
             p El lápiz es un instrumento para dibujo o escritura que consiste habitualmente en una barra (conocida también como mina) compuesta de una mezcla de grafito y arcilla o cera encapsulada en un cilindro de madera (actualmente se usan muchos otros materiales como plástico, papel, etc.) que le da soporte a la mina, también son fabricados de colores mediante el uso de diferentes pigmentos, pero para dibujo el más usado suele ser el lápiz de grafito.
 
             p.mb-5 Los lápices de grafito se marcan con letras y números según la composición de la mina usando la H (del inglés Hard) para las minas duras y la B (del inglés Back) para las minas blandas, entre más dura sea la mina más claro será el trazo dejado por el lápiz y en contraposición, entre más blanda sea la mina más oscuro será el trazo debido a que así el lápiz deja sobre el soporte mayor cantidad de grafito.
@@ -58,7 +58,7 @@
             figure
               img.img-a(src='@/assets/curso/tema_1/img_7.png', alt='Texto que describa la imagen')
           .row(numero="C" titulo="Sacapuntas y bisturí")
-            p.mb-5 Los sacapuntas son utensilios usados para desbastar el recubrimiento de madera de los lápices a medida que se va desgastando la mina, existen muchos modelos de sacapuntas, pero su finalidad es la misma, también es común hacer uso de cuchillas como los bisturí para hacer el desbaste de la madera y afilar las puntas de las minas a medida que se gastan.
+            p.mb-5 Los sacapuntas son utensilios usados para desbastar el recubrimiento de madera de los lápices a medida que se va desgastando la mina, existen muchos modelos de sacapuntas, pero su finalidad es la misma, también es común hacer uso de cuchillas como los bisturí para hacer el desbaste de la madera y afilar las puntas de las minas a medida que se desgastan.
             figure
               img.img-a(src='@/assets/curso/tema_1/img_8.png', alt='Texto que describa la imagen')
           .row(numero="D" titulo="Papeles")
@@ -67,7 +67,7 @@
             p.mb-5 Existen diferentes tipos de papel destinados a variedad de aplicaciones, aunque en principio todos sirven para dibujar, entre los más comunes y fáciles de conseguir se encuentra el papel bond de 75 gramos que regularmente es de uso de oficina, sin embargo, en casi cualquier papelería o tienda de implementos de arte se consiguen más variedades.
             figure
               img.img-a(src='@/assets/curso/tema_1/img_9.png', alt='Texto que describa la imagen')
-          .row(numero="D" titulo="Gomas de borrar")
+          .row(numero="E" titulo="Gomas de borrar")
             p.mb-5 Son instrumentos diseñados para eliminar trazos de lápiz y de algunas tintas borrables, hay de consistencia rígida, aunque con algo de flexibilidad y algunas maleables como la goma limpia tipos.
             figure
               img.img-a(src='@/assets/curso/tema_1/img_10.png', alt='Texto que describa la imagen')
@@ -77,19 +77,19 @@
         figure.mb-5
           img.img-a(src='@/assets/curso/tema_1/img_11.png', alt='Texto que describa la imagen')
 
-    h3(data-aos="flip-up") Hardware
+    h3(data-aos="flip-up") #[i Hardware]
     p.mb-5(data-aos="flip-up") Actualmente existen muchas alternativas de equipos de cómputo y periféricos útiles para desarrollar ilustraciones que van desde los teléfonos móviles, hasta computadores de escritorio pasando por computadores y portátiles, tablets y otros periféricos especializados en la ilustración digital 2D y 3D.
 
     .row.justify-content-center.mb-5(data-aos="slide-right")
       .col-lg-12
         LineaTiempoD.color-secundario
-          .row(numero="A" titulo="Lápices y portamina")
-            p.mb-5 Actualmente la capacidad de cómputo de los teléfonos móviles supera con creces la poseída por los computadores de escritorio de finales de los 90, especialmente los que encajan en la categoría de Smartphone, ya que en su mayoría poseen una pantalla táctil de suficiente tamaño que brinda la posibilidad de dibujar sobre ella como si se tratara de una libreta de bolsillo digital, gracias a esta característica y las diferentes aplicaciones y algunos utensilios como los stylus (este último no es indispensable) los smartphones se convierten en una alternativa al alcance de la mayoría de personas para realizar dibujos digitales. 
+          .row(numero="A" titulo="Teléfonos móviles")
+            p.mb-5 Actualmente la capacidad de cómputo de los teléfonos móviles supera con creces la poseída por los computadores de escritorio de finales de los 90, especialmente los que encajan en la categoría de #[i Smartphone], ya que en su mayoría poseen una pantalla táctil de suficiente tamaño que brinda la posibilidad de dibujar sobre ella como si se tratara de una libreta de bolsillo digital, gracias a esta característica y las diferentes aplicaciones y algunos utensilios como los stylus (este último no es indispensable) los #[i smartphones] se convierten en una alternativa al alcance de la mayoría de personas para realizar dibujos digitales. 
 
             figure
               img.img-a(src='@/assets/curso/tema_1/img_12.png', alt='Texto que describa la imagen')
           .row(numero="B" titulo="Tablets")
-            p Son dispositivos con grandes pantallas táctiles, habitualmente mayores a 7” y que funcionan generalmente bajo los mismos sistemas operativos que los Smartphones, como lo son android, iOs y en algunos casos Windows, gracias a esto la mayoría de aplicaciones disponibles para teléfonos móviles están disponibles también para las tablets y dado su tamaño de pantalla son una alternativa más cómoda para dibujar que un smartphone.
+            p Son dispositivos con grandes pantallas táctiles, habitualmente mayores a 7” y que funcionan generalmente bajo los mismos sistemas operativos que los #[i Smartphones], como lo son android, iOs y en algunos casos Windows, gracias a esto la mayoría de aplicaciones disponibles para teléfonos móviles están disponibles también para las tablets y dado su tamaño de pantalla son una alternativa más cómoda para dibujar que un #[i smartphone].
 
             p.mb-5 El dispositivo más usado de esta categoría por artistas dedicados a la ilustración sin lugar a dudas es el iPad de Apple, sin embargo, en el mercado existen muchas otras alternativas con funcionalidades iguales o similares en un amplio rango de precios.
 
@@ -105,7 +105,7 @@
               img.img-a(src='@/assets/curso/tema_1/img_14.png', alt='Texto que describa la imagen')
 
           .row(numero="D" titulo="Tabletas gráficas")
-            p Las tabletas gráficas son un periférico de entrada que se conecta a un computador de escritorio o portátil, e incluso algunos modelos actuales permiten conexión con smartphones compatibles, constan de una superficie plana sobre la cual se interactúa por medio de un lápiz que es capaz de detectar la posición, contacto, presión y en ocasiones inclinación para transferir esa información al trazo representado en pantalla.
+            p Las tabletas gráficas son un periférico de entrada que se conecta a un computador de escritorio o portátil, e incluso algunos modelos actuales permiten conexión con #[i smartphones] compatibles, constan de una superficie plana sobre la cual se interactúa por medio de un lápiz que es capaz de detectar la posición, contacto, presión y en ocasiones inclinación para transferir esa información al trazo representado en pantalla.
 
             p.mb-5 Las hay de muchas marcas, modelos y precios siendo los fabricantes especializados más conocidos Wacom, Xp Pen y Huion, existen otros fabricantes, pero por presencia en el mercado los modelos de estos tres fabricantes son los más sencillos de encontrar en la región de Latinoamérica.
 
@@ -249,8 +249,6 @@
     .titulo-segundo(data-aos="flip-up")
       #t_1_2.h2 1.2 Bocetación
 
-    p.mb-5(data-aos="flip-up") Para dibujar existen muchos instrumentos, utensilios y herramientas, a continuación, se da una breve descripción de algunos de los más utilizados clasificados según su uso:
-
     .row.align-items-center.bg-color1.p-5(data-aos="slide-left")
       .col-lg-12.mb-4.mb-lg-0
         figure.mb-5
@@ -266,7 +264,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema_1/img_31.png')})`}"
       )
       .bloque-texto-g__texto.p-4(style="right: 410px;")
-        p En conclusión, la bocetación es tanto un método de estudio como una solución rápida para la representación gráfica de ideas convirtiéndolo en algo eficaz para la planeación de una composición pictórica en el arte, el planteamiento inicial de algo en el diseño o el desarrollo de storyboard en el audiovisual entre muchos otros usos.
+        p En conclusión, la bocetación es tanto un método de estudio como una solución rápida para la representación gráfica de ideas convirtiéndolo en algo eficaz para la planeación de una composición pictórica en el arte, el planteamiento inicial de algo en el diseño o el desarrollo de #[i storyboard] en el audiovisual entre muchos otros usos.
         br
         br
         p.mb-0 Aunque el boceto se caracteriza por ser una construcción rápida es importante tener presentes algunos conceptos que se describirán a continuación, ya que son elementos básicos del dibujo y son importantes para hacer del proceso de bocetación algo eficiente.
@@ -342,7 +340,7 @@
         .tarjeta.tarjeta-flip.bg_02(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style=" {'background-image' : `url(${require('@/assets/curso/tema_1/img_36.svg')})`}")
+            .tarjeta-flip__img.lip__img1(:style=" {'background-image' : `url(${require('@/assets/curso/tema_1/img_36.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               h5.text-center Línea recta
               p.mb-0 Son las líneas en las que todos sus puntos se proyectan en una sola dirección.
