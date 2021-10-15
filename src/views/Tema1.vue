@@ -340,7 +340,7 @@
         .tarjeta.tarjeta-flip.bg_02(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img.lip__img1(:style=" {'background-image' : `url(${require('@/assets/curso/tema_1/img_36.svg')})`}")
+            .tarjeta-flip__img(:style=" {'background-image' : `url(${require('@/assets/curso/tema_1/img_36.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               h5.text-center Línea recta
               p.mb-0 Son las líneas en las que todos sus puntos se proyectan en una sola dirección.
