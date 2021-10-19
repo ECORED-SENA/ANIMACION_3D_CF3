@@ -118,11 +118,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
@@ -392,17 +387,17 @@ export default {
       },
       {
         nombre: 'Oscar Absalón Guevara',
-        cargo: 'Diseñador Instruccional',
+        cargo: 'Diseñador instruccional',
         centro: 'Centro de Gestión Industrial – Regional Distrito Capital',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Evaluador Instruccional',
+        cargo: 'Evaluador instruccional',
         centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
       },
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor Pedagógico',
+        cargo: 'Asesor pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura – Regional Santander',
       },
