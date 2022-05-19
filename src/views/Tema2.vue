@@ -73,8 +73,7 @@
           .col-lg-8
             figure
               img.img-a(src='@/assets/curso/tema_2/img_3.png', alt='Texto que describa la imagen')
-              figcaption.text-center Ejemplo de campo, encuadre y aspecto 
-              
+              figcaption.text-center Ejemplo de campo, encuadre y aspecto
         .row.justify-content-center
           .col-lg-10
             .bloque-texto-f.bg_03.pt-4.px-5.mb-5
@@ -85,81 +84,82 @@
               .bloque-texto-f__autor.mb-0
                 h5.mb-0 - (ACEITUNO, 2010)
       .row(numero="4" titulo="Plano")
-        p.mb-5 Es la unidad narrativa más pequeña con significado. Se pueden dividir según su ángulo de corte (CÁMARA, 2006), usualmente tomando como referencia la figura humana.  
-        SlyderA
-          .row.justify-content-center.align-items-center
-            .col-md-11.col-lg-9
-              figure.mb-3
-                img.img-a(src='@/assets/curso/tema_2/img_4.png', alt='Texto que describa la imagen')
-              .list.mb-3
-                .list__item
-                  .list__item__bulletNumber5 
-                    span 1
-                .list__txt.mt-2  
-                  h3 Gran Plano General / Extreme Long Shot (ELS)
-              .line01.mb-3
-              p Tiene el mayor ángulo de corte posible. Tiene el objetivo de mostrar la mayor cantidad de información acerca del entorno y los personajes solo representan un punto más dentro de todo el paisaje.  
-          .row.justify-content-center.align-items-center
-            .col-md-11.col-lg-9
-              figure.mb-3
-                img.img-a(src='@/assets/curso/tema_2/img_5.png', alt='Texto que describa la imagen')
-              .list.mb-3
-                .list__item
-                  .list__item__bulletNumber5 
-                    span 2
-                .list__txt.mt-2  
-                  h3 Plano General / Long Shot (LS)
-              .line01.mb-3
-              p Sigue teniendo un valor descriptivo y se pueden observar a los personajes. Brinda información del lugar donde se desarrollará la historia.
-          .row.justify-content-center.align-items-center
-            .col-md-11.col-lg-9
-              figure.mb-3
-                img.img-a(src='@/assets/curso/tema_2/img_6.png', alt='Texto que describa la imagen')
-              .list.mb-3
-                .list__item
-                  .list__item__bulletNumber5 
-                    span 3
-                .list__txt.mt-2  
-                  h3 Plano Entero/ Full Shot (FS)
-              .line01.mb-3
-              p Muestra al personaje de cuerpo completo dentro de un lugar. Tiene un valor narrativo, en el cual se observan con claridad las acciones y movimientos de los personajes.
-          .row.justify-content-center.align-items-center
-            .col-md-11.col-lg-9
-              figure.mb-3
-                img.img-a(src='@/assets/curso/tema_2/img_7.png', alt='Texto que describa la imagen')
-              .list.mb-3
-                .list__item
-                  .list__item__bulletNumber5 
-                    span 4
-                .list__txt.mt-2  
-                  h3 Plano Americano/ American Shot (AS)
-              .line01.mb-3
-              p Se muestra al personaje desde la cabeza hasta las rodillas. Su origen viene de las películas Western donde era importante mostrar las manos del personaje al momento de tomar su pistola. Es un plano narrativo y expresivo, donde el personaje como el entorno tienen gran importancia.
-          .row.justify-content-center.align-items-center
-            .col-md-11.col-lg-9
-              figure.mb-3
-                img.img-a(src='@/assets/curso/tema_2/img_8.png', alt='Texto que describa la imagen')
-              .list.mb-3
-                .list__item
-                  .list__item__bulletNumber5 
-                    span 5
-                .list__txt.mt-2  
-                  h3 Plano medio/ Medium Shot (MS)
-              .line01.mb-3
-              p.mb-0 Corte a la altura de la cintura. A pesar de que se clasifica como un plano narrativo más que expresivo; aumenta la importancia del rostro del personaje y su expresividad, restándole atención al escenario. Es un plano muy cómodo para trabajar los diálogos de los personajes, desde el cual se puede hacer una transición a un plano general o un primer plano sin brusquedad.
-              p Tiene la facultad de tener mayor duración en pantalla frente a otros planos. (CÁMARA, 2006)
-          .row.justify-content-center.align-items-center
-            .col-md-11.col-lg-9
-              figure.mb-3
-                img.img-a(src='@/assets/curso/tema_2/img_10.png', alt='Texto que describa la imagen')
-              .list.mb-3
-                .list__item
-                  .list__item__bulletNumber5 
-                    span 7
-                .list__txt.mt-2  
-                  h3 Primerísimo Primer Plano/ Plano Detalle/ Extreme Close Up (ECU)
-              .line01.mb-3
-              p.mb-0 Recoge un fragmento o detalle de un objeto o personaje. Es un plano expresivo que funciona para remarcar detalles o acciones que con otro tipo de planos pasarían desapercibidos.
+        .col-12
+          p.mb-5 Es la unidad narrativa más pequeña con significado. Se pueden dividir según su ángulo de corte (CÁMARA, 2006), usualmente tomando como referencia la figura humana.  
+          SlyderA.p-2
+            .row.justify-content-center.align-items-center
+              .col-md-11.col-lg-9
+                figure.mb-3
+                  img.img-a(src='@/assets/curso/tema_2/img_4.png', alt='Texto que describa la imagen')
+                .list.mb-3
+                  .list__item
+                    .list__item__bulletNumber5 
+                      span 1
+                  .list__txt.mt-2  
+                    h3 Gran Plano General / #[i Extreme Long Shot] (ELS)
+                .line01.mb-3
+                p Tiene el mayor ángulo de corte posible. Tiene el objetivo de mostrar la mayor cantidad de información acerca del entorno y los personajes solo representan un punto más dentro de todo el paisaje.  
+            .row.justify-content-center.align-items-center
+              .col-md-11.col-lg-9
+                figure.mb-3
+                  img.img-a(src='@/assets/curso/tema_2/img_5.png', alt='Texto que describa la imagen')
+                .list.mb-3
+                  .list__item
+                    .list__item__bulletNumber5 
+                      span 2
+                  .list__txt.mt-2  
+                    h3 Plano General / #[i Long Shot] (LS)
+                .line01.mb-3
+                p Sigue teniendo un valor descriptivo y se pueden observar a los personajes. Brinda información del lugar donde se desarrollará la historia.
+            .row.justify-content-center.align-items-center
+              .col-md-11.col-lg-9
+                figure.mb-3
+                  img.img-a(src='@/assets/curso/tema_2/img_6.png', alt='Texto que describa la imagen')
+                .list.mb-3
+                  .list__item
+                    .list__item__bulletNumber5 
+                      span 3
+                  .list__txt.mt-2  
+                    h3 Plano Entero/ #[i Full Shot] (FS)
+                .line01.mb-3
+                p Muestra al personaje de cuerpo completo dentro de un lugar. Tiene un valor narrativo, en el cual se observan con claridad las acciones y movimientos de los personajes.
+            .row.justify-content-center.align-items-center
+              .col-md-11.col-lg-9
+                figure.mb-3
+                  img.img-a(src='@/assets/curso/tema_2/img_7.png', alt='Texto que describa la imagen')
+                .list.mb-3
+                  .list__item
+                    .list__item__bulletNumber5 
+                      span 4
+                  .list__txt.mt-2  
+                    h3 Plano Americano/ #[i American Shot] (AS)
+                .line01.mb-3
+                p Se muestra al personaje desde la cabeza hasta las rodillas. Su origen viene de las películas Western donde era importante mostrar las manos del personaje al momento de tomar su pistola. Es un plano narrativo y expresivo, donde el personaje como el entorno tienen gran importancia.
+            .row.justify-content-center.align-items-center
+              .col-md-11.col-lg-9
+                figure.mb-3
+                  img.img-a(src='@/assets/curso/tema_2/img_8.png', alt='Texto que describa la imagen')
+                .list.mb-3
+                  .list__item
+                    .list__item__bulletNumber5 
+                      span 5
+                  .list__txt.mt-2  
+                    h3 Plano medio/ #[i Medium Shot] (MS)
+                .line01.mb-3
+                p.mb-0 Corte a la altura de la cintura. A pesar de que se clasifica como un plano narrativo más que expresivo; aumenta la importancia del rostro del personaje y su expresividad, restándole atención al escenario. Es un plano muy cómodo para trabajar los diálogos de los personajes, desde el cual se puede hacer una transición a un plano general o un primer plano sin brusquedad.
+                p Tiene la facultad de tener mayor duración en pantalla frente a otros planos. (CÁMARA, 2006)
+            .row.justify-content-center.align-items-center
+              .col-md-11.col-lg-9
+                figure.mb-3
+                  img.img-a(src='@/assets/curso/tema_2/img_10.png', alt='Texto que describa la imagen')
+                .list.mb-3
+                  .list__item
+                    .list__item__bulletNumber5 
+                      span 7
+                  .list__txt.mt-2  
+                    h3 Primerísimo Primer Plano/ Plano Detalle/ #[i Extreme Close Up] (ECU)
+                .line01.mb-3
+                p.mb-0 Recoge un fragmento o detalle de un objeto o personaje. Es un plano expresivo que funciona para remarcar detalles o acciones que con otro tipo de planos pasarían desapercibidos.
       .row(numero="5" titulo="Ángulo")
         p.mb-5 Es el que determina el punto de vista de la cámara, que provee un recurso expresivo al momento de mostrar el aspecto psicológico de un plano.
         SlyderA
@@ -253,7 +253,7 @@
                     .list__txt.mt-2  
                       h4 Tres cuartos
                   .line01.mb-3
-                  p.mb-0 El personaje u objeto aparece ligeramente girado en el eje horizontal. Suele usarse para romper el efecto de twinning o espejo y brindar sensación de profundidad.
+                  p.mb-0 El personaje u objeto aparece ligeramente girado en el eje horizontal. Suele usarse para romper el efecto de #[i twinning] o espejo y brindar sensación de profundidad.
           .row.justify-content-center.align-items-center
             .col-md-11.col-lg-9
               .row.align-items-center

@@ -11,10 +11,10 @@
     .row.align-items-center.px-5(data-aos="flip-up")
       .col-lg-12.mb-4.mb-lg-0
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-up")
-          .bloque-texto-g__img(style="left: 612px;")(
+          .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema_1/img_1.png')})`}"
           )
-          .bloque-texto-g__texto.p-4(style="right: 410px;")
+          .bloque-texto-g__texto.p-4
             p El dibujo es una forma expresión humana y una de las más efectivas, ya que bien ejecutado es capaz de superar incluso la barrera del idioma, tanto así que algunos se han constituido en símbolos que son mundialmente utilizados para representar conceptos específicos; por ejemplo, la señal de prohibido o las figuras de hombre y mujer que se ponen en la entrada de los baños públicos.
             br
             br
@@ -43,7 +43,7 @@
     .row.justify-content-center.mb-5(data-aos="slide-right")
       .col-lg-12
         LineaTiempoD.color-secundario
-          .row.color_lin(numero="A" titulo="Lápices y portamina")
+          .row.color_lin(numero="A" titulo="Lápices y portaminas")
             p El lápiz es un instrumento para dibujo o escritura que consiste habitualmente en una barra (conocida también como mina) compuesta de una mezcla de grafito y arcilla o cera encapsulada en un cilindro de madera (actualmente se usan muchos otros materiales como plástico, papel, etc.) que le da soporte a la mina, también son fabricados de colores mediante el uso de diferentes pigmentos, pero para dibujo el más usado suele ser el lápiz de grafito.
 
             p.mb-5 Los lápices de grafito se marcan con letras y números según la composición de la mina usando la H (del inglés Hard) para las minas duras y la B (del inglés Back) para las minas blandas, entre más dura sea la mina más claro será el trazo dejado por el lápiz y en contraposición, entre más blanda sea la mina más oscuro será el trazo debido a que así el lápiz deja sobre el soporte mayor cantidad de grafito.
@@ -58,13 +58,12 @@
             figure
               img.img-a(src='@/assets/curso/tema_1/img_7.png', alt='Texto que describa la imagen')
           .row(numero="C" titulo="Sacapuntas y bisturí")
-            p.mb-5 Los sacapuntas son utensilios usados para desbastar el recubrimiento de madera de los lápices a medida que se va desgastando la mina, existen muchos modelos de sacapuntas, pero su finalidad es la misma, también es común hacer uso de cuchillas como los bisturí para hacer el desbaste de la madera y afilar las puntas de las minas a medida que se desgastan.
+            p.mb-5 Los sacapuntas son utensilios usados para desbastar el recubrimiento de madera de los lápices a medida que se va desgastando la mina, existen muchos modelos de sacapuntas, pero su finalidad es la misma, también es común hacer uso de cuchillas como los bisturi para hacer el desbaste de la madera y afilar las puntas de las minas a medida que se desgastan.
             figure
               img.img-a(src='@/assets/curso/tema_1/img_8.png', alt='Texto que describa la imagen')
           .row(numero="D" titulo="Papeles")
             p El papel es un material obtenido del procesamiento de fibras vegetales de las que se obtiene pulpa de celulosa mediante métodos de molienda, la cual es procesada y prensada para obtener láminas delgadas de características variables según el proceso que se les aplique.
-
-            p.mb-5 Existen diferentes tipos de papel destinados a variedad de aplicaciones, aunque en principio todos sirven para dibujar, entre los más comunes y fáciles de conseguir se encuentra el papel bond de 75 gramos que regularmente es de uso de oficina, sin embargo, en casi cualquier papelería o tienda de implementos de arte se consiguen más variedades.
+            p.mb-5 Existen diferentes tipos de papel destinados a variedad de aplicaciones, aunque en principio todos sirven para dibujar, entre los más comunes y fáciles de conseguir se encuentra el papel #[i bond] de 75 gramos que regularmente es de uso de oficina, sin embargo, en casi cualquier papelería o tienda de implementos de arte se consiguen más variedades.
             figure
               img.img-a(src='@/assets/curso/tema_1/img_9.png', alt='Texto que describa la imagen')
           .row(numero="E" titulo="Gomas de borrar")
@@ -78,7 +77,7 @@
           img.img-a(src='@/assets/curso/tema_1/img_11.png', alt='Texto que describa la imagen')
 
     h3(data-aos="flip-up") #[i Hardware]
-    p.mb-5(data-aos="flip-up") Actualmente existen muchas alternativas de equipos de cómputo y periféricos útiles para desarrollar ilustraciones que van desde los teléfonos móviles, hasta computadores de escritorio pasando por computadores y portátiles, tablets y otros periféricos especializados en la ilustración digital 2D y 3D.
+    p.mb-5(data-aos="flip-up") Actualmente existen muchas alternativas de equipos de cómputo y periféricos útiles para desarrollar ilustraciones que van desde los teléfonos móviles, hasta computadores de escritorio pasando por computadores y portátiles, #[i tablets] y otros periféricos especializados en la ilustración digital 2D y 3D.
 
     .row.justify-content-center.mb-5(data-aos="slide-right")
       .col-lg-12
@@ -88,8 +87,8 @@
 
             figure
               img.img-a(src='@/assets/curso/tema_1/img_12.png', alt='Texto que describa la imagen')
-          .row(numero="B" titulo="Tablets")
-            p Son dispositivos con grandes pantallas táctiles, habitualmente mayores a 7” y que funcionan generalmente bajo los mismos sistemas operativos que los #[i Smartphones], como lo son android, iOs y en algunos casos Windows, gracias a esto la mayoría de aplicaciones disponibles para teléfonos móviles están disponibles también para las tablets y dado su tamaño de pantalla son una alternativa más cómoda para dibujar que un #[i smartphone].
+          .row(numero="B" titulo="<em>Tablets</em>")
+            p Son dispositivos con grandes pantallas táctiles, habitualmente mayores a 7” y que funcionan generalmente bajo los mismos sistemas operativos que los #[i Smartphones], como lo son android, iOs y en algunos casos Windows, gracias a esto la mayoría de aplicaciones disponibles para teléfonos móviles están disponibles también para las #[i tablets] y dado su tamaño de pantalla son una alternativa más cómoda para dibujar que un #[i smartphone].
 
             p.mb-5 El dispositivo más usado de esta categoría por artistas dedicados a la ilustración sin lugar a dudas es el iPad de Apple, sin embargo, en el mercado existen muchas otras alternativas con funcionalidades iguales o similares en un amplio rango de precios.
 
@@ -97,9 +96,9 @@
               img.img-a(src='@/assets/curso/tema_1/img_13.png', alt='Texto que describa la imagen')
 
           .row(numero="C" titulo="Computadores")
-            p Los computadores son la alternativa más utilizada en cuanto a trabajo profesional se refiere, principalmente por las posibilidades de personalización según las necesidades y porque ofrecen más capacidad de cómputo que alternativas como móviles o tablets y por tanto son capaces de ejecutar aplicaciones más potentes para ilustración.
+            p Los computadores son la alternativa más utilizada en cuanto a trabajo profesional se refiere, principalmente por las posibilidades de personalización según las necesidades y porque ofrecen más capacidad de cómputo que alternativas como móviles o #[i tablets] y por tanto son capaces de ejecutar aplicaciones más potentes para ilustración.
 
-            p.mb-5 Existen en 2 grandes categorías que son equipos de escritorio y equipos portátiles diferenciándose principalmente por su volumen y peso lo que hace que el equipo deba ser usado en una estación fija para el caso de los equipos de escritorio o tenga la posibilidad de ser transportado con libertad para el caso de los portátiles (conocidos también como laptops).
+            p.mb-5 Existen en 2 grandes categorías que son equipos de escritorio y equipos portátiles diferenciándose principalmente por su volumen y peso lo que hace que el equipo deba ser usado en una estación fija para el caso de los equipos de escritorio o tenga la posibilidad de ser transportado con libertad para el caso de los portátiles (conocidos también como #[i laptops]).
 
             figure
               img.img-a(src='@/assets/curso/tema_1/img_14.png', alt='Texto que describa la imagen')
@@ -145,7 +144,7 @@
                 img.img-a(src='@/assets/curso/tema_1/img_18.png', alt='Texto que describa la imagen')
 
           h4.text-center Krita
-          p.mb-0 Es un programa de pintura digital gratuito y open source muy potente lo que lo hace uno de los más populares y por tanto es muy fácil encontrar tutoriales sobre él, está disponible para Windows, macOS y Linux.
+          p.mb-0 Es un programa de pintura digital gratuito y #[i open source] muy potente lo que lo hace uno de los más populares y por tanto es muy fácil encontrar tutoriales sobre él, está disponible para Windows, macOS y Linux.
       .col-lg-3.mb-4.mb-lg-0.tarjeta--boton.color-acento-contenido.p-4.bor_tar
         a(href="https://inkscape.org/" target="_blank")
           
@@ -155,7 +154,7 @@
                 img.img-a(src='@/assets/curso/tema_1/img_19.png', alt='Texto que  describa la imagen')
 
           h4.text-center Inkscape 
-          p.mb-0 Es un editor de gráficos vectoriales gratuito y open source disponible para plataformas Linux, Windows y macOS.
+          p.mb-0 Es un editor de gráficos vectoriales gratuito y #[i open source] disponible para plataformas Linux, Windows y macOS.
       .col-lg-3.mb-4.mb-lg-0.tarjeta--boton.color-acento-contenido.p-4.bor_tar
         a(href="https://www.sketchbook.com/" target="_blank")
           
@@ -176,7 +175,7 @@
                 img.img-a(src='@/assets/curso/tema_1/img_21.png', alt='Texto que describa la imagen')
 
             h4.text-center Gimp
-            p.mb-0 Es la alternativa gratuita y open source a Photoshop por excelencia, y de las opciones más potentes para edición de fotografías, está disponible para Linux, Windows y macOs.
+            p.mb-0 Es la alternativa gratuita y #[i open source] a Photoshop por excelencia, y de las opciones más potentes para edición de fotografías, está disponible para Linux, Windows y macOs.
       .col-lg-3.mb-4.mb-lg-0.tarjeta--boton.color-acento-contenido.p-4.bor_tar
         a(href="https://magmastudio.io/" target="_blank")
           .row.justify-content-center.mb-3
@@ -230,21 +229,15 @@
           img.img-a(src='@/assets/curso/tema_1/img_28.png', alt='Texto que  describa la imagen')
 
           h4.mt-3.text-center Afinity Designer
-          p.mb-0 Es un programa de diseño que permite el intercalar entre el uso de pixeles y vectores lo que lo hace bastante versátil, es de pago y está disponible para Windows, macOS y iOs.
-      
-    .row.mb-5
-      .col-lg-12.mb-4.mb-lg-0.d-flex
+          p.mb-0 Es un programa de diseño que permite el intercalar entre el uso de píxeles y vectores lo que lo hace bastante versátil, es de pago y está disponible para Windows, macOS y iOs.
+    .row.justify-content-center
+      .col-lg-3.mb-4.mb-lg-0.tarjeta--boton.color-acento-contenido.p-4.bor_tar
         a(href="https://procreate.art/" target="_blank")
-          .tarjeta--boton.color-acento-contenido.p-4
-            .row.justify-content-center.align-items-center.mb-3
-              .col-3
-                figure
-                  img.img-a(src='@/assets/curso/tema_1/img_29.png', alt='Texto que describa la imagen')
-              .col-2
-                h4.text-center Procreate
-              .col-6
-                p.mb-0 Es una aplicación para dibujo y pintura digital que ha venido tomando bastante relevancia, es de pago y está disponible exclusivamente para iOS.
-  
+          
+          img.img-a(src='@/assets/curso/tema_1/img_29.png', alt='Texto que  describa la imagen')
+
+          h4.mt-3.text-center Procreate
+          p.mb-0 Es una aplicación para dibujo y pintura digital que ha venido tomando bastante relevancia, es de pago y está disponible exclusivamente para iOS.
     separador
     .titulo-segundo(data-aos="flip-up")
       #t_1_2.h2 1.2 Bocetación
@@ -260,10 +253,10 @@
 
     
     .bloque-texto-g.bloc_bg.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-up")
-      .bloque-texto-g__img(style="left: 612px;")(
+      .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema_1/img_31.png')})`}"
       )
-      .bloque-texto-g__texto.p-4(style="right: 410px;")
+      .bloque-texto-g__texto.p-4
         p En conclusión, la bocetación es tanto un método de estudio como una solución rápida para la representación gráfica de ideas convirtiéndolo en algo eficaz para la planeación de una composición pictórica en el arte, el planteamiento inicial de algo en el diseño o el desarrollo de #[i storyboard] en el audiovisual entre muchos otros usos.
         br
         br
@@ -292,7 +285,7 @@
             .tarjeta-flip__img(:style=" {'background-image' : `url(${require('@/assets/curso/tema_1/img_32.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               h5 Forma
-              p.mb-0 Es el elemento compositivo más pequeño de una imagen y su apariencia geométrica se asume como algo redondo sin embargo al depender en gran medida del instrumento con el que se marca, puede obtener otras formas como el cuadrado (en el caso de los pixeles) el triángulo, el rectángulo, etc., según la forma del instrumento de dibujo.
+              p.mb-0 Es el elemento compositivo más pequeño de una imagen y su apariencia geométrica se asume como algo redondo sin embargo al depender en gran medida del instrumento con el que se marca, puede obtener otras formas como el cuadrado (en el caso de los píxeles) el triángulo, el rectángulo, etc., según la forma del instrumento de dibujo.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.bg_01(@mouseover="indicadorTarjetaFlip = false")
@@ -453,7 +446,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/zlpn6Nde9zs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    .tarjeta.tar_sly.p-4.mb-5(data-aos="flip-up")
+    .tarjeta.tar_sly.p-3.p-lg-4.mb-5(data-aos="flip-up")
       SlyderA
         .row.justify-content-center.align-items-center
           .col-md-11.col-lg-9
@@ -505,7 +498,7 @@
 
     p(data-aos="slide-left") Una manera de hacer bocetos rápidos de un personaje, ya sea como exploración al momento de diseñar o para ver distintas actitudes de un diseño ya establecido es el uso de figuras geométricas básicas y líneas de acción.
 
-    p(data-aos="slide-right") La abstracción consiste en la simplificación de volúmenes complejos de forma que con pocos trazos y el uso de figuras básicas como cuadrados, círculos, rectángulos, triángulos óvalos y demás se logre capturar la esencia elemental del personaje.
+    p(data-aos="slide-right") La abstracción consiste en la simplificación de volúmenes complejos de forma que con pocos trazos y el uso de figuras básicas como cuadrados, círculos, rectángulos, triángulos, óvalos y demás se logre capturar la esencia elemental del personaje.
 
     p(data-aos="slide-left") En este orden de ideas si un personaje es delgado van a prevalecer en su construcción formas como los rectángulos, en el caso de un personaje obeso las figuras que más resalta seguramente serán círculos y óvalos, para un personaje de gran musculatura pueden aparecer muchos óvalos mezclados con cuadrados y trapecios y así indefinidamente dependiendo de la fisonomía que se desee representar.
 
