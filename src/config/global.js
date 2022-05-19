@@ -256,9 +256,8 @@ export default {
     {
       texto:
         'Brad Bird on how to compose shots for <em>storyboards</em> Y layout artists',
-      tipo: 'Web',
-      link:
-        'https://drive.google.com/drive/u/1/folders/12NE-22yrveZoKbQRJPj9xPJdj5EpL8xn',
+      tipo: 'PDF',
+      descarga: '/downloads/Brad_Bird_notes_to_compose.pdf',
     },
     {
       texto:
@@ -277,7 +276,7 @@ export default {
     {
       texto: 'La ciencia del Cine (2018), Planos y Movimientos de Cámara I',
       tipo: 'Video',
-      linl: 'https://youtu.be/AN2I1CTn3rY',
+      link: 'https://youtu.be/AN2I1CTn3rY',
     },
 
     {
@@ -348,14 +347,12 @@ export default {
       tipo: 'Video',
       link: 'https://youtu.be/cG0DBZPRkTQ',
     },
-
     {
       texto:
         'Negocios y Empresa (2018, Cómo hacer un Elevator Pitch que enamore al Inversor.',
       tipo: 'Video',
       link: 'https://youtu.be/EsAkvzIoEvc',
     },
-
     {
       texto:
         'IurisdocTV, (2013), Elevator pitch. Tienes 20 segundos - eduCaixa',
